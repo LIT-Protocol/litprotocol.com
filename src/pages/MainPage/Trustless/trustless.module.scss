@@ -1,0 +1,12 @@
+@import 'style/colors.scss';
+@import 'style/text.scss';
+
+.wrapper {
+  padding: 161px 0 113px 0;
+  background-color: $white;
+
+  .inner {
+    @extend .size-xl;
+    color: $black;
+  }
+}

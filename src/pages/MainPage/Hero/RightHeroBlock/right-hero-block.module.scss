@@ -1,0 +1,13 @@
+.wrapper {
+  margin-top: -15px;
+  margin-left: auto;
+
+  .emailInput {
+    width: 342px;
+    margin-right: 14px;
+  }
+
+  @media (max-width: 1180px) {
+    margin-top: 55px;
+  }
+}

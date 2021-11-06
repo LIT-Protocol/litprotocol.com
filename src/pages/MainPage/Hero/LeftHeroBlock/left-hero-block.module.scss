@@ -1,0 +1,55 @@
+@import 'style/colors.scss';
+@import 'style/text.scss';
+
+.wrapper {
+  max-width: 632px;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 60px;
+      height: 60px;
+      margin-right: 15px;
+    }
+
+    h1 {
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 60px;
+      line-height: 150%;
+      margin: 0;
+      color: $white;
+    }
+  }
+
+  .slogan {
+    h2 {
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 150%;
+      margin-top: 0;
+      color: $white;
+    }
+  }
+
+  .description {
+    @extend .size-xl;
+    margin-top: 43px;
+    color: $brand20;
+  }
+
+  .startButton {
+    margin-top: 43px;
+  }
+
+  .bottom {
+    @extend .header-1;
+    margin-top: 101px;
+    color: $brand20;
+  }
+}

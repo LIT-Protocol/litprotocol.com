@@ -1,0 +1,12 @@
+.wrapper {
+  width: 100%;
+
+  .inner {
+    max-width: 1180px;
+    margin: 0 auto;
+
+    @media (max-width: 1180px) {
+      max-width: 960px;
+    }
+  }
+}

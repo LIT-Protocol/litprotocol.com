@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  > div {
+    max-width: 534px;
+  }
+
+  &.colums-3 {
+    > div {
+      max-width: 324px;
+    }
+  }
+
+  @media (max-width: 1180px) {
+    display: block;
+
+    > div {
+      max-width: 100% !important;
+    }
+  }
+}

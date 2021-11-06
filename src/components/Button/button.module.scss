@@ -1,0 +1,44 @@
+@import 'style/colors.scss';
+
+.button {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 48px;
+  padding: 0 24px;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &.primary {
+    border: 1px solid $brand4;
+    background-color: $brand4;
+    color: $white;
+
+    &:hover {
+      background-color: $brand20;
+      border-color: $brand20;
+    }
+  }
+
+  &.secondary {
+    border: 1px solid $brand4;
+    background-color: transparent;
+    color: $brand4;
+
+    &:hover {
+      color: $brand20;
+      border-color: $brand20;
+    }
+  }
+
+  &.light {
+    border: 1px solid $white;
+    background-color: transparent;
+    color: $white;
+  }
+
+  &.link {
+    display: block;
+  }
+}

@@ -1,0 +1,14 @@
+@import 'style/colors.scss';
+
+.wrapper {
+  padding: 92px 0 84px 0;
+  background-color: $brand4;
+  color: $white;
+
+  .exploreWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
