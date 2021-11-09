@@ -5,6 +5,9 @@
   position: relative;
   padding: 180px 0 173px 0;
   background-color: #281647;
+  background-image: url('./assets/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 
   .inner {
     max-width: 1180px;
