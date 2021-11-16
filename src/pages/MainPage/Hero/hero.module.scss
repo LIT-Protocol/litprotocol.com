@@ -8,6 +8,7 @@
   background-image: url('./assets/background.png');
   background-repeat: no-repeat;
   background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 66%, 30% 96%, 0 88%);
 
   .inner {
     max-width: 1180px;

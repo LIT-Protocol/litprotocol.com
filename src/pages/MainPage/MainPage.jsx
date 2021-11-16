@@ -8,10 +8,12 @@ import Why from './Why'
 import NowLive from './NowLive'
 import SupportedBy from './SupportedBy'
 import Footer from './Footer'
+import FloatingLogosHero from './Hero/FloatingLogosHero/FloatingLogosHero'
 
 const MainPage = () => {
   return (
     <div className={styles.wrapper}>
+      <FloatingLogosHero />
       <Hero />
       <Trustless />
       <DesignedForDevelopers />

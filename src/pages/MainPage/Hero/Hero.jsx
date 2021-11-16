@@ -6,11 +6,12 @@ import RightHeroBlock from './RightHeroBlock'
 import { PartBlock } from 'components'
 
 import styles from './hero.module.scss'
+import FloatingLogosHero from './FloatingLogosHero/FloatingLogosHero'
 
 const Hero = () => {
   return (
     <PartBlock className={styles.wrapper}>
-      <Top />
+      {/*<Top />*/}
 
       <div className={styles.inner}>
         <div className={styles.topWrapper}>

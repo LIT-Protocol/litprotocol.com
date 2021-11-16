@@ -17,6 +17,12 @@ const RightHeroBlock = () => {
         onChange={setEmail}
       />
       <Button onClick={handleSubmit}>Get Updates</Button>
+      <span className={styles.serviceLogo}>
+        <div className={styles.zoomLogo} />
+        <div className={styles.ifpsLogo} />
+        <div className={styles.googleLogo} />
+        <div className={styles.gatherLogo} />
+      </span>
     </div>
   )
 }

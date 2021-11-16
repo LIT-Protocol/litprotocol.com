@@ -14,32 +14,29 @@ const DesignedForDevelopers = () => {
           <div>
             <p>
               The tools to connect blockchains to each other and the rest of the
-              world
+              world.
             </p>
-            <p>
-              Our focus is on building the right abstractions so your teams
-              don’t need to stitch together disparate systems or spend months
-              integrating access control functionality, without your teams
-              having to trust a centralized controller.
-            </p>
-          </div>
-        </div>
-
-        <div>
-          <div>
             <p>
               Our focus is on building the right abstractions so your teams can
               start integrating access control functionality now and avoid
-              stitching together disparate systems later.{' '}
+              stitching together disparate systems later.
             </p>
           </div>
-
           <Button
             className={styles.readTheDocsButton}
             type="secondary"
             onClick={handleReadTheDocs}
           >
             Read the Docs
+          </Button>
+        </div>
+
+        <div className={styles.rightSide}>
+          <div className={styles.codeBlock}>
+            <p>> Code block from chris.</p>
+          </div>
+          <Button className={styles.readTheDocsButton} type="primary">
+            Create Requirement
           </Button>
         </div>
       </Columns>

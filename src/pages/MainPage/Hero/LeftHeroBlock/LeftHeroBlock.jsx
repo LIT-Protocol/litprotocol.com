@@ -30,7 +30,9 @@ const LeftHeroBlock = () => {
         Start Now
       </Button>
 
-      <div className={styles.bottom}>Utility for digital private property</div>
+      <div className={styles.bottom}>
+        Encrypted + decentralized composability
+      </div>
     </div>
   )
 }
