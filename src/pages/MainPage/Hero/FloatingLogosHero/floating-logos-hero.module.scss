@@ -1,0 +1,43 @@
+.zoomLogo {
+  position: absolute;
+  top: 54rem;
+  right: 34%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1.5rem;
+  width: 6.5rem;
+  background-image: url('../assets/zoomLogo.svg');
+}
+
+.ifpsLogo {
+  position: absolute;
+  top: 49.5rem;
+  right: 23%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 5rem;
+  width: 5rem;
+  background-image: url('../assets/ipfsLogo.svg');
+}
+
+.googleLogo {
+  position: absolute;
+  top: 47rem;
+  right: 12%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 4.6rem;
+  width: 4rem;
+  background-image: url('../assets/googleLogo.svg');
+}
+
+.gatherLogo {
+  position: absolute;
+  top: 54rem;
+  right: 11%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 2.5rem;
+  width: 6.5rem;
+  background-image: url('../assets/gatherLogo.svg');
+}
