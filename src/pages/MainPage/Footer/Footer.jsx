@@ -15,7 +15,7 @@ const Footer = () => {
 
       <a href="https://blog.litprotocol.com/">Blog</a>
 
-      <a href="#">Developer Docs</a>
+      <a href="https://developer.litprotocol.com/">Developer Docs</a>
 
       <a href="#">Contact</a>
     </div>
