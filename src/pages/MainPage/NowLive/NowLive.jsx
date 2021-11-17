@@ -1,4 +1,4 @@
-import { PartBlock, Columns, Title, Button, Card } from 'components'
+import { Button, Card, Columns, PartBlock, Title } from 'components'
 
 import styles from './now-live.module.scss'
 
@@ -9,14 +9,20 @@ const NowLive = () => {
   return (
     <PartBlock className={styles.wrapper}>
       <Columns className={styles.inner}>
-        <div>
+        <div className={styles.descriptionText}>
           <Title white value="The Gateway is now live" />
 
           <p>
-            Lit Gateway is your portal for connecting blockchain wallets to the
-            rest of the internet.
+            Lit Gateway is your portal for connected blockchain experiences.
+            Create token gated documents, play games to earn crypto, and so much
+            more.
           </p>
-          <p>Find your apps, collect your offers</p>
+          <p>
+            <strong>Find your apps, collect your offers</strong>
+          </p>
+          <Button className={styles.enterButton} href="https://litgateway.com/">
+            Enter the Gateway
+          </Button>
         </div>
 
         <div>
@@ -37,10 +43,9 @@ const NowLive = () => {
             }
             img={driveBack}
           />
+          <div className={styles.logos} />
         </div>
       </Columns>
-
-      <div className={styles.logos} />
     </PartBlock>
   )
 }

@@ -1,4 +1,4 @@
-import { PartBlock, Columns, Title } from 'components'
+import { Columns, PartBlock, Title } from 'components'
 
 import styles from './trustless.module.scss'
 
@@ -6,7 +6,7 @@ const Trustless = () => {
   return (
     <PartBlock className={styles.wrapper}>
       <div className={styles.inner}>
-        <Title value="A Trustless Access Control Network" />
+        <Title value="A Distributed and Open Source Access Control Network" />
 
         <Columns>
           <div>
@@ -17,8 +17,7 @@ const Trustless = () => {
             </p>
             <p>
               Lit brings together everything that’s required for websites, apps,
-              and IOT devices to gate access based on blockchain conditions,
-              like NFT ownership or membership in a DAO.
+              and IOT devices to to create blockchain connected experiences.
             </p>
           </div>
 

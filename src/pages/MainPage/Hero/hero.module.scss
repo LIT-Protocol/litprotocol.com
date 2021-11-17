@@ -5,12 +5,11 @@
   position: relative;
   //padding: 180px 0 173px 0;
   padding: 120px 0 173px 0;
-  min-height: 50rem;
+  min-height: 45rem;
   background-color: #281647;
   background-image: url('./assets/background.png');
   background-repeat: no-repeat;
   background-size: cover;
-  //clip-path: polygon(100% 0, 100% 74%, 24% 91%, 0 85%, 0 0);
   clip-path: polygon(100% 0, 100% 62%, 34% 90%, 0 85%, 0 0);
 
   .inner {

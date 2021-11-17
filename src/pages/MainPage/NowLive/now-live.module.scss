@@ -2,7 +2,7 @@
 @import 'style/text.scss';
 
 .wrapper {
-  padding: 168px 0 91px 0;
+  padding: 90px 0 91px 0;
   background-image: url('./assets/background.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,6 +10,15 @@
   .inner {
     @extend .size-xl;
     color: $white;
+
+    .descriptionText {
+      margin-top: 79px;
+    }
+
+    .enterButton {
+      width: 200px;
+      text-align: center;
+    }
 
     .card {
       max-width: 407px;
@@ -20,8 +29,9 @@
   .logos {
     width: 345px;
     height: 172px;
-    margin-left: 120px;
-    margin-top: -35px;
+    //margin-left: 120px;
+    //margin-top: -35px;
+    margin-top: 4rem;
     background-image: url('./assets/logos.png');
     background-size: 100%;
 

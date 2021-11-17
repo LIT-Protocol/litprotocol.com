@@ -13,6 +13,8 @@ const Footer = () => {
         <Icons.Discord />
       </a>
 
+      <a href="https://blog.litprotocol.com/">Blog</a>
+
       <a href="#">Developer Docs</a>
 
       <a href="#">Contact</a>
