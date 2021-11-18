@@ -37,14 +37,14 @@
 @media (max-width: 600px) {
   .wrapper {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    padding: 0;
     width: 100%;
     min-height: 100vh;
+    padding: 0 0 30px;
 
     .inner {
       width: 80%;
       margin: 0 auto;
-      padding: 50px 0 20px;
+      padding: 30px 0 20px;
 
       .topWrapper {
       }
