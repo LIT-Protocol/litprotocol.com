@@ -20,7 +20,7 @@
   }
 
   .inner {
-    max-width: 1180px;
+    //max-width: 1180px;
     margin: 0 auto;
 
     .topWrapper {
@@ -34,7 +34,15 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1180px) {
+  .wrapper {
+    .inner {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
   .wrapper {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     width: 100%;
@@ -45,9 +53,6 @@
       width: 80%;
       margin: 0 auto;
       padding: 70px 0 20px;
-
-      .topWrapper {
-      }
     }
   }
 
@@ -55,7 +60,7 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin: 0 auto;
+    margin: 8rem auto 0;
     align-items: center;
 
     .zoomLogo {
@@ -95,5 +100,65 @@
       //background-color: #fff;
       background-image: url('../Hero/assets/gatherAltLogo.svg');
     }
+  }
+
+  @media (max-width: 600px) {
+    .wrapper {
+      //clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      width: 100%;
+      min-height: 100vh;
+      padding: 0 0 30px;
+
+      .inner {
+        width: 80%;
+        margin: 0 auto;
+        padding: 70px 0 20px;
+
+        .topWrapper {
+        }
+      }
+    }
+
+    .logoContainer {
+      margin: 0 auto;
+    }
+    //
+    //  .zoomLogo {
+    //    display: inline;
+    //    background-size: contain;
+    //    background-repeat: no-repeat;
+    //    height: 1.5rem;
+    //    width: 20%;
+    //    background-image: url('../Hero/assets/zoomLogo.svg');
+    //  }
+    //
+    //  .ifpsLogo {
+    //    display: inline;
+    //    background-size: contain;
+    //    background-repeat: no-repeat;
+    //    height: 4rem;
+    //    width: 17%;
+    //    background-image: url('../Hero/assets/ipfsLogo.svg');
+    //  }
+    //
+    //  .googleLogo {
+    //    display: inline;
+    //    background-size: contain;
+    //    background-repeat: no-repeat;
+    //    height: 4rem;
+    //    margin-top: 0.3rem;
+    //    width: 16%;
+    //    background-image: url('../Hero/assets/googleLogo.svg');
+    //  }
+    //
+    //  .gatherLogo {
+    //    display: inline;
+    //    background-size: contain;
+    //    background-repeat: no-repeat;
+    //    height: 3rem;
+    //    width: 25%;
+    //    //background-color: #fff;
+    //    background-image: url('../Hero/assets/gatherAltLogo.svg');
+    //  }
   }
 }

@@ -14,9 +14,15 @@
       width: auto;
       margin: 0 15px 40px 15px;
     }
+  }
+}
 
-    @media (max-width: 1180px) {
-      width: 100%;
+@media (max-width: 1180px) {
+  .wrapper {
+    text-align: center;
+
+    .logos {
+      width: 80%;
     }
   }
 }

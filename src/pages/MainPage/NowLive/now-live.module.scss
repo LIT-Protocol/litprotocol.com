@@ -41,7 +41,15 @@
   }
 }
 
-@media (max-width: 600px) {
+//@media (max-width: 1000px) {
+//  .wrapper {
+//    .inner {
+//      width: 100%
+//    }
+//  }
+//}
+
+@media (max-width: 1000px) {
   .wrapper {
     padding: 10px 0 90px;
 
@@ -66,6 +74,7 @@
     .logos {
       width: 100%;
       background-repeat: no-repeat;
+      background-size: contain;
     }
   }
 }

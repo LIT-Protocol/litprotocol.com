@@ -15,7 +15,7 @@ const Why = () => {
 
       <Columns className={styles.args}>
         <div className={styles.detailContainer}>
-          <div className={styles.image}></div>
+          <div className={styles.imageBlocks}></div>
           <span>
             <Title secondary value="Decentralized" />
             <p>
@@ -27,7 +27,7 @@ const Why = () => {
         </div>
 
         <div className={styles.detailContainer}>
-          <div className={styles.image}></div>
+          <div className={styles.imageSecure}></div>
           <span>
             <Title secondary value="Secure Execution" />
             <p>
@@ -38,7 +38,7 @@ const Why = () => {
         </div>
 
         <div className={styles.detailContainer}>
-          <div className={styles.image}></div>
+          <div className={styles.imageShields}></div>
           <span>
             <Title secondary value="Reliable" />
             <p>

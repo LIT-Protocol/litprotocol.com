@@ -63,9 +63,33 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1250px) {
   .wrapper {
-    height: 33.5rem;
+    .workflowContainer {
+      //width: 70%;
+      //height: auto;
+      top: 5rem;
+      margin-left: 30%;
+      width: 70%;
+    }
+
+    .arrow {
+      width: 25%;
+      left: 35%;
+      top: 15rem;
+    }
+
+    .selectImage {
+      width: 35%;
+      top: 5rem;
+      left: 3rem;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    height: 34.5rem;
     min-height: 20rem;
 
     .imageContainer {
@@ -86,8 +110,8 @@
     }
 
     .workflowContainer {
-      width: 95%;
-      height: 200px;
+      width: 50%;
+      //height: 200px;
       position: static;
       margin: 0 auto;
     }
