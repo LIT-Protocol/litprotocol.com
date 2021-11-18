@@ -21,7 +21,10 @@
     }
 
     h1 {
-      font-weight: 600;
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.8rem;
     }
   }
 
@@ -48,6 +51,22 @@
 
 @media (max-width: 1000px) {
   .wrapper {
-    display: none;
+    .logo {
+      img {
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+      }
+
+      h1 {
+        font-size: 1.2rem;
+      }
+    }
+
+    .gatewayLink {
+      .links {
+        display: none;
+      }
+    }
   }
 }

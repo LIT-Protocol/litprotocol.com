@@ -6,7 +6,7 @@ const Trustless = () => {
   return (
     <PartBlock className={styles.wrapper}>
       <div className={styles.inner}>
-        <Title value="A Distributed and Open Source Access Control Network" />
+        <Title value="A Distributed Network for Composability and Encryption" />
 
         <Columns>
           <div>

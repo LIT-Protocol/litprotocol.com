@@ -7,10 +7,10 @@ const LeftHeroBlock = () => {
 
   return (
     <div className={styles.wrapper}>
-      <div className={styles.logo}>
-        <img src="/lit-logo.png" />
-        <h1>Lit Protocol</h1>
-      </div>
+      {/*<div className={styles.logo}>*/}
+      {/*  <img src="/lit-logo.png" />*/}
+      {/*  <h1>Lit Protocol</h1>*/}
+      {/*</div>*/}
       <div className={styles.slogan}>
         <h2>
           Decentralized Authentication for Connected Experiences

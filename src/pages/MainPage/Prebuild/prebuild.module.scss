@@ -89,7 +89,7 @@
 
 @media (max-width: 1000px) {
   .wrapper {
-    height: 34.5rem;
+    height: calc(35rem + 20vw);
     min-height: 20rem;
 
     .imageContainer {
@@ -110,7 +110,7 @@
     }
 
     .workflowContainer {
-      width: 50%;
+      width: 95%;
       //height: 200px;
       position: static;
       margin: 0 auto;
@@ -120,5 +120,11 @@
     .arrow {
       display: none;
     }
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    height: calc(35rem + 10vw);
   }
 }

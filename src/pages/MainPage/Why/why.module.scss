@@ -47,9 +47,13 @@
 
     .detailContainer {
       display: flex;
+      align-items: center;
 
-      .image {
-        width: 70%;
+      .imageBlocks,
+      .imageSecure,
+      .imageShields {
+        //width: 20%;
+        margin-right: 1rem;
       }
 
       span {
@@ -76,7 +80,11 @@
     }
 
     .detailContainer {
-      .image {
+      .imageBlocks,
+      .imageSecure,
+      .imageShields {
+        width: 5rem;
+        height: 3rem;
       }
 
       span {

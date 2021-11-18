@@ -13,21 +13,25 @@
     .readTheDocsButton {
       margin-top: 35px;
     }
-  }
 
-  .rightSide {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
+    .rightSide {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
 
-  .codeBlock {
-    width: 510px;
-    height: 442px;
-    padding: 0 30px;
-    font-family: 'Courier New', monospace;
-    background: #050b2c;
-    border-radius: 8px;
+    .codeBlock {
+      width: 510px;
+      height: 442px;
+      padding: 0 30px;
+      font-family: 'Courier New', monospace;
+      background: #050b2c;
+      border-radius: 8px;
+    }
+
+    .createRequirementButton {
+      margin-top: 2rem;
+    }
   }
 }
 
