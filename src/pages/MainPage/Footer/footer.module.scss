@@ -39,7 +39,20 @@
 
     a {
       text-align: center;
-      min-width: 120px;
+    }
+
+    .linkTwitter,
+    .linkDiscord {
+      width: 20%;
+    }
+
+    .linkBlog,
+    .linkContact {
+      width: 32%;
+    }
+
+    .linkDeveloper {
+      width: 50%;
     }
   }
 }
