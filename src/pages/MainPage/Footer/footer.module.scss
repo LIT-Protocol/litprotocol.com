@@ -21,3 +21,25 @@
     color: $brand4;
   }
 }
+
+@media (max-width: 600px) {
+  .wrapper {
+    flex-wrap: wrap;
+    //height: 400px;
+    padding: 1rem;
+    justify-content: space-evenly;
+
+    > * {
+      margin-right: 0;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    a {
+      text-align: center;
+      min-width: 120px;
+    }
+  }
+}

@@ -35,8 +35,28 @@
     background-image: url('./assets/logos.png');
     background-size: 100%;
 
-    @media (max-width: 1180px) {
-      display: none;
+    //@media (max-width: 1180px) {
+    //  display: none;
+    //}
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 10px 0 90px;
+
+    .inner {
+      width: 80%;
+      margin: 0 auto;
+
+      .card {
+        display: none;
+      }
+    }
+
+    .logos {
+      width: 100%;
+      background-repeat: no-repeat;
     }
   }
 }

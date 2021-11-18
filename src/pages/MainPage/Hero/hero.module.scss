@@ -12,6 +12,13 @@
   background-size: cover;
   clip-path: polygon(100% 0, 100% 62%, 34% 90%, 0 85%, 0 0);
 
+  .zoomLogo,
+  .ifpsLogo,
+  .googleLogo,
+  .gatherLogo {
+    display: none;
+  }
+
   .inner {
     max-width: 1180px;
     margin: 0 auto;
@@ -23,6 +30,68 @@
       @media (max-width: 1180px) {
         display: block;
       }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+
+    .inner {
+      width: 80%;
+      margin: 0 auto;
+      padding: 50px 0 20px;
+
+      .topWrapper {
+      }
+    }
+  }
+
+  .logoContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+
+    .zoomLogo {
+      display: inline;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 1.5rem;
+      width: 4rem;
+      background-image: url('../Hero/assets/zoomLogo.svg');
+    }
+
+    .ifpsLogo {
+      display: inline;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 4rem;
+      width: 4rem;
+      background-image: url('../Hero/assets/ipfsLogo.svg');
+    }
+
+    .googleLogo {
+      display: inline;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 4rem;
+      width: 3.5rem;
+      background-image: url('../Hero/assets/googleLogo.svg');
+    }
+
+    .gatherLogo {
+      display: inline;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 2.5rem;
+      width: 3rem;
+      background-image: url('../Hero/assets/gatherLogo.svg');
     }
   }
 }

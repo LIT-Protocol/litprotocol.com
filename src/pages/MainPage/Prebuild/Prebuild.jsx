@@ -1,4 +1,4 @@
-import { PartBlock, Columns, Title, Button } from 'components'
+import { Button, Columns, PartBlock, Title } from 'components'
 
 import styles from './prebuild.module.scss'
 
@@ -10,7 +10,7 @@ const Prebuild = () => {
       <div className={styles.imageContainer}>
         <Columns>
           <div className={styles.descriptionContainer}>
-            <Title white value="Prebuild Components" />
+            <Title white value="Prebuilt Components" />
 
             <p className={styles.prebuildDescription}>
               We’ve built and open sourced a number of ways to use Lit Protocol

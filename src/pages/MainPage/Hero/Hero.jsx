@@ -1,5 +1,3 @@
-import Top from './Top'
-
 import LeftHeroBlock from './LeftHeroBlock'
 import RightHeroBlock from './RightHeroBlock'
 
@@ -19,6 +17,12 @@ const Hero = () => {
           <RightHeroBlock />
         </div>
       </div>
+      <span className={styles.logoContainer}>
+        <div className={styles.zoomLogo} />
+        <div className={styles.ifpsLogo} />
+        <div className={styles.googleLogo} />
+        <div className={styles.gatherLogo} />
+      </span>
     </PartBlock>
   )
 }

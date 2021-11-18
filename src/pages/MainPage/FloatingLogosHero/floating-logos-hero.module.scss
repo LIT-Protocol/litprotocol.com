@@ -51,3 +51,30 @@
   width: 6.5rem;
   background-image: url('../Hero/assets/gatherLogo.svg');
 }
+
+@media (max-width: 600px) {
+  .serviceLogo {
+    display: none;
+    //clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    //min-height: initial;
+    //position: static;
+    //display: flex;
+    //flex-direction: row;
+  }
+
+  .zoomLogo {
+    display: none;
+  }
+
+  .ifpsLogo {
+    display: none;
+  }
+
+  .googleLogo {
+    display: none;
+  }
+
+  .gatherLogo {
+    display: none;
+  }
+}

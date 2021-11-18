@@ -10,8 +10,8 @@ const SupportedBy = () => {
       <Title pretitle="Supported By:" />
 
       <div className={styles.logos}>
-        {logos.map((logo) => (
-          <img src={logo.file} style={{ height: `${logo.height}px` }} />
+        {logos.map((logo, i) => (
+          <img key={i} src={logo.file} style={{ height: `${logo.height}px` }} />
         ))}
       </div>
     </PartBlock>

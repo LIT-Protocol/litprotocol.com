@@ -54,3 +54,30 @@
     color: $brand20;
   }
 }
+
+@media (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+
+    .logo {
+      h1 {
+        font-size: 2.75rem;
+      }
+    }
+
+    .slogan {
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+
+    .description {
+      width: 95%;
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: white;
+      font-weight: 200;
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import { PartBlock, Columns, Button, Title } from 'components'
+import { Button, Columns, PartBlock, Title } from 'components'
 
 import styles from './designed-for-developers.module.scss'
 
@@ -35,7 +35,7 @@ const DesignedForDevelopers = () => {
           <div className={styles.codeBlock}>
             <p>> Code block from chris.</p>
           </div>
-          <Button className={styles.readTheDocsButton} type="primary">
+          <Button className={styles.createRequirementButton} type="primary">
             Create Requirement
           </Button>
         </div>

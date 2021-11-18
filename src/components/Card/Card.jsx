@@ -24,7 +24,7 @@ const Card = (props) => {
         <h3>{title}</h3>
         <div className={styles.desc}>{desc}</div>
         <div className={styles.tags}>
-          {tags?.length && tags.map((tag) => <Tag>{tag}</Tag>)}
+          {tags?.length && tags.map((tag, i) => <Tag key={i}>{tag}</Tag>)}
         </div>
       </div>
       <div className={styles.btns}>{btns}</div>

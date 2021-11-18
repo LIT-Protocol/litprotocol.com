@@ -10,3 +10,11 @@
     color: $black;
   }
 }
+
+@media (max-width: 600px) {
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+}
