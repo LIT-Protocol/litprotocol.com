@@ -5,24 +5,7 @@
   max-width: 632px;
 
   .logo {
-    display: flex;
-    align-items: center;
-
-    img {
-      width: 60px;
-      height: 60px;
-      margin-right: 15px;
-    }
-
-    h1 {
-      font-family: 'Space Grotesk';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 60px;
-      line-height: 150%;
-      margin: 0;
-      color: $white;
-    }
+    display: none;
   }
 
   .slogan {
@@ -32,7 +15,7 @@
       font-weight: 400;
       font-size: 40px;
       line-height: 150%;
-      margin-top: 0;
+      margin-top: 5rem;
       color: $white;
     }
   }
@@ -52,6 +35,47 @@
     @extend .header-1;
     margin-top: 101px;
     color: $brand20;
+  }
+}
+
+@media (max-width: 1250px) {
+  .wrapper {
+    .slogan {
+      h2 {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    .logo {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 60px;
+        height: 60px;
+        margin-right: 15px;
+      }
+
+      h1 {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 150%;
+        margin: 0;
+        color: $white;
+      }
+    }
+
+    .slogan {
+      h2 {
+        margin-top: 0rem;
+      }
+    }
   }
 }
 

@@ -9,13 +9,45 @@
   background-color: rgba(0, 0, 0, 0.54);
   padding: 14px 0 16px 0;
 
+  .logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+    img {
+      margin-right: 20px;
+      height: 50px;
+      width: 50px;
+    }
+
+    h1 {
+      font-weight: 600;
+    }
+  }
+
   .gatewayLink {
-    width: max-content;
+    width: 85%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .links {
+      width: 40%;
+      min-width: 30rem;
+      display: flex;
+      justify-content: space-between;
+    }
 
     a {
       @extend .size-xl;
       color: $brand20;
     }
+  }
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    display: none;
   }
 }

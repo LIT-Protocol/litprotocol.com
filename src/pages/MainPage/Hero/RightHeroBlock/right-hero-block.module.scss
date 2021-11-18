@@ -7,12 +7,32 @@
     //margin-left: 3rem;
     width: 342px;
     margin-right: 14px;
+    margin-bottom: 1rem;
   }
 
   @media (max-width: 1180px) {
     margin-top: 55px;
   }
 }
+
+//
+//@media(max-width: 1250px) {
+//  .wrapper {
+//    .emailInput {
+//      width: 100%;
+//      margin-bottom: 1rem;
+//    }
+//  }
+//}
+//
+//@media(max-width: 1180px) {
+//  .wrapper {
+//    .emailInput {
+//      width: 342px;
+//      margin-bottom: 1rem;
+//    }
+//  }
+//}
 
 @media (max-width: 600px) {
   .wrapper {
