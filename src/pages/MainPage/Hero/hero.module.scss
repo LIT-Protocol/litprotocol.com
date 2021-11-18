@@ -63,7 +63,7 @@
       background-size: contain;
       background-repeat: no-repeat;
       height: 1.5rem;
-      width: 4rem;
+      width: 20%;
       background-image: url('../Hero/assets/zoomLogo.svg');
     }
 
@@ -72,7 +72,7 @@
       background-size: contain;
       background-repeat: no-repeat;
       height: 4rem;
-      width: 4rem;
+      width: 20%;
       background-image: url('../Hero/assets/ipfsLogo.svg');
     }
 
@@ -81,7 +81,7 @@
       background-size: contain;
       background-repeat: no-repeat;
       height: 4rem;
-      width: 3.5rem;
+      width: 19%;
       background-image: url('../Hero/assets/googleLogo.svg');
     }
 
@@ -89,9 +89,10 @@
       display: inline;
       background-size: contain;
       background-repeat: no-repeat;
-      height: 2.5rem;
-      width: 3rem;
-      background-image: url('../Hero/assets/gatherLogo.svg');
+      height: 3rem;
+      width: 25%;
+      //background-color: #fff;
+      background-image: url('../Hero/assets/gatherAltLogo.svg');
     }
   }
 }

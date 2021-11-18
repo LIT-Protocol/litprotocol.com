@@ -24,9 +24,9 @@ const Prebuild = () => {
             </Button>
           </div>
         </Columns>
-        <div className={styles.selectImage}></div>
-        <div className={styles.arrow}></div>
-        <div className={styles.workflowContainer}></div>
+        <div className={styles.selectImage} />
+        <div className={styles.arrow} />
+        <div className={styles.workflowContainer} />
       </div>
     </PartBlock>
   )

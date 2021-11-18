@@ -10,4 +10,47 @@
     margin-top: 60px;
     color: $black;
   }
+
+  .image {
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0 40px;
+
+    h3 {
+      font-size: 1.4rem;
+      line-height: 2rem;
+    }
+
+    .detailContainer {
+      display: flex;
+
+      .image {
+        width: 70%;
+      }
+
+      span {
+        margin-left: 1rem;
+        width: 100%;
+
+        h3 {
+          font-size: 1rem;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    p {
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+  }
 }

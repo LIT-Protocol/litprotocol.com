@@ -65,14 +65,11 @@
 
 @media (max-width: 600px) {
   .wrapper {
-    height: 37.5rem;
-    min-height: initial;
+    height: 33.5rem;
+    min-height: 20rem;
 
     .imageContainer {
       //display: none;
-
-      Columns {
-      }
     }
 
     .descriptionContainer {
@@ -81,10 +78,15 @@
       align-items: center;
       justify-content: space-around;
       text-align: center;
+
+      h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
     }
 
     .workflowContainer {
-      width: 80%;
+      width: 95%;
       height: 200px;
       position: static;
       margin: 0 auto;
