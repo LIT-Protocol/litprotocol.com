@@ -6,7 +6,11 @@ import styles from './right-hero-block.module.scss'
 const RightHeroBlock = () => {
   const [email, setEmail] = useState('')
 
-  const handleSubmit = () => {}
+  const handleSubmit = () => {
+    window
+      .open('https://developer.litprotocol.com/docs/intro', '_blank')
+      .focus()
+  }
 
   return (
     <div className={styles.wrapper}>

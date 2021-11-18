@@ -16,7 +16,7 @@ const Top = () => {
 
           <a
             className={styles.linkDeveloper}
-            href="https://developer.litprotocol.com/"
+            href="https://developer.litprotocol.com/docs/intro"
           >
             Docs
           </a>
