@@ -18,7 +18,7 @@ const Top = () => {
             className={styles.linkDeveloper}
             href="https://developer.litprotocol.com/"
           >
-            Developer Docs
+            Docs
           </a>
 
           <a className={styles.linkContact} href="#">

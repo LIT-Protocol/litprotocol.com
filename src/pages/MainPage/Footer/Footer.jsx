@@ -29,10 +29,13 @@ const Footer = () => {
         className={styles.linkDeveloper}
         href="https://developer.litprotocol.com/"
       >
-        Developer Docs
+        Docs
       </a>
 
-      <a className={styles.linkContact} href="#">
+      <a
+        className={styles.linkContact}
+        href="https://airtable.com/shr2NWJbH1Y6Y3kOU"
+      >
         Contact
       </a>
     </div>
