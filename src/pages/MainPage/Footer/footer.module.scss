@@ -18,8 +18,7 @@
 
   a {
     @extend .size-xl;
-    color: $brand4;
-    color: #bfa1ff;
+    color: $brandLight;
   }
 }
 
@@ -45,12 +44,14 @@
     .linkTwitter,
     .linkDiscord {
       width: 20%;
+      font-size: 1.1rem;
     }
 
     .linkBlog,
     .linkContact,
     .linkDeveloper {
       width: 32%;
+      font-size: 1.1rem;
     }
   }
 }

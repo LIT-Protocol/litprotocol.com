@@ -20,7 +20,9 @@ const RightHeroBlock = () => {
         value={email}
         onChange={setEmail}
       />
-      <Button onClick={handleSubmit}>Get Updates</Button>
+      <Button className={styles.getUpdatesButton} onClick={handleSubmit}>
+        Get Updates
+      </Button>
     </div>
   )
 }

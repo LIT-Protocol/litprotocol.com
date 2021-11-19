@@ -126,5 +126,11 @@
 @media (max-width: 600px) {
   .wrapper {
     height: calc(35rem + 10vw);
+
+    .exploreButton {
+      font-size: 0.9rem;
+      line-height: 2.5rem;
+      padding: 0 1rem;
+    }
   }
 }

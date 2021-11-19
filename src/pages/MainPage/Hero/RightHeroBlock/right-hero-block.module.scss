@@ -42,8 +42,17 @@
     flex-direction: column;
 
     .emailInput {
-      width: calc(100% - 28px);
+      width: calc(100% - 34px);
       margin: 0 0 1rem;
+      font-size: 0.9rem;
+      line-height: 2.5rem;
+      padding: 0 1rem;
+    }
+
+    .getUpdatesButton {
+      font-size: 0.9rem;
+      line-height: 2.5rem;
+      margin-top: 1rem;
     }
   }
 }

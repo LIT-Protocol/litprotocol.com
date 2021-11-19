@@ -78,3 +78,17 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .wrapper {
+    .inner {
+      .descriptionText {
+        .enterButton {
+          font-size: 0.9rem;
+          line-height: 2.5rem;
+          padding: 0 1rem;
+        }
+      }
+    }
+  }
+}
