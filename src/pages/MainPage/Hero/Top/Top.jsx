@@ -21,7 +21,10 @@ const Top = () => {
             Docs
           </a>
 
-          <a className={styles.linkContact} href="#">
+          <a
+            className={styles.linkContact}
+            href="https://airtable.com/shr2NWJbH1Y6Y3kOU"
+          >
             Contact
           </a>
         </span>
