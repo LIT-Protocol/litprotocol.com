@@ -91,7 +91,18 @@
     }
   }
 
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
   .error {
+    animation-name: fadein;
+    animation-duration: 0.25s;
     color: #eb5757;
     margin: 0 0 0 1rem;
     font-family: 'Space Grotesk';
@@ -101,6 +112,8 @@
   }
 
   .success {
+    animation-name: fadein;
+    animation-duration: 0.25s;
     color: #22c38e;
     margin: 0 0 0 1rem;
     font-family: 'Space Grotesk';
