@@ -12,8 +12,6 @@ const Input = (props) => {
   } = props
 
   const handleChange = (event) => {
-    event.preventDefault()
-
     onChange(event.currentTarget.value)
   }
 
@@ -23,7 +21,7 @@ const Input = (props) => {
     <input
       className={cx(styles.input, styles[type], className)}
       type="text"
-      onChange={handleChange}
+      onChange={(e) => handleChange(e)}
       {...inputProps}
     />
   )

@@ -3,7 +3,11 @@ import { Button } from 'components'
 import styles from './left-hero-block.module.scss'
 
 const LeftHeroBlock = () => {
-  const handleStart = () => {}
+  const handleStart = () => {
+    window
+      .open('https://developer.litprotocol.com/docs/intro', '_blank')
+      .focus()
+  }
 
   return (
     <div className={styles.wrapper}>
