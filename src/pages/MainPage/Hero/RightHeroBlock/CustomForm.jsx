@@ -10,6 +10,9 @@ const CustomForm = ({ status, message, onValidated }) => {
   const [added, setAdded] = useState(false)
 
   useEffect(() => {
+    if (status === 'success') {
+      setAdded(true)
+    }
     if (message && message.includes('Thank you')) {
       setInputMessageClass('success')
       setInputMessage(message)
@@ -17,7 +20,7 @@ const CustomForm = ({ status, message, onValidated }) => {
       setInputMessageClass('success')
       setInputMessage('This email is already subscribed!')
     }
-  }, [message])
+  }, [message, status])
 
   const validateEmail = (email) => {
     const re =
@@ -31,13 +34,6 @@ const CustomForm = ({ status, message, onValidated }) => {
       setInputMessage('Please enter a valid email')
       return false
     }
-
-    if (!added) {
-      setInputMessage(null)
-      setAdded(true)
-    }
-
-    setAdded(true)
 
     onValidated({
       EMAIL: email,
