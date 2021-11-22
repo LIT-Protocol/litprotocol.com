@@ -17,7 +17,8 @@ const Trustless = () => {
             </p>
             <p>
               Lit brings together everything that’s required for websites, apps,
-              and IOT devices to to create blockchain connected experiences.
+              games, events, and IOT devices to to create blockchain connected
+              experiences.
             </p>
           </div>
 

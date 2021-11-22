@@ -17,7 +17,7 @@ const LeftHeroBlock = () => {
       {/*</div>*/}
       <div className={styles.slogan}>
         <h2>
-          Decentralized Authentication for Connected Experiences
+          Decentralized Access Control for Connected Experiences
           {/*Decentralized Composability Infrastructure for the Next*/}
           {/*Internet*/}
         </h2>
