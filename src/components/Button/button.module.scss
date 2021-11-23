@@ -23,12 +23,12 @@
 
   &.primaryDark {
     border: 1px solid $brandDark;
-    background-color: #fff;
+    background-color: $brandExtraLight;
     color: $brandDark;
 
     &:hover {
+      background-color: #fff;
       //background-color: $brandLight;
-      background-color: $brandExtraLight;
     }
   }
 
