@@ -3,7 +3,14 @@ import { Button, Columns, PartBlock, Title } from 'components'
 import styles from './prebuild.module.scss'
 
 const Prebuild = () => {
-  const handleExplore = () => {}
+  const handleExplore = () => {
+    window
+      .open(
+        'https://developer.litprotocol.com/docs/accessControlModal',
+        '_blank',
+      )
+      .focus()
+  }
 
   return (
     <PartBlock className={styles.wrapper}>
@@ -17,7 +24,7 @@ const Prebuild = () => {
             </p>
             <Button
               className={styles.exploreButton}
-              type="light"
+              type="tertiary"
               onClick={handleExplore}
             >
               Explore

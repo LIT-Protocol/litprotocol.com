@@ -24,7 +24,7 @@ const DesignedForDevelopers = () => {
           </div>
           <Button
             className={styles.readTheDocsButton}
-            type="secondary"
+            type="tertiary"
             onClick={handleReadTheDocs}
           >
             Read the Docs

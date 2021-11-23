@@ -32,10 +32,31 @@
     }
   }
 
+  &.tertiary {
+    //border: 1px solid $brandLight;
+    //color: $brandLight;
+    border: 1px solid #e7ddff;
+    color: #e7ddff;
+    background-color: transparent;
+
+    &:hover {
+      //color: #EEE7FF;
+      //border-color: #EEE7FF;
+      //color: $brandLight;
+      //border-color: $brandLight;
+      color: #fff;
+      border-color: #fff;
+    }
+  }
+
   &.light {
     border: 1px solid $white;
     background-color: transparent;
     color: $white;
+
+    &:hover {
+      color: #eee7ff;
+    }
   }
 
   &.link {
