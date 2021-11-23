@@ -8795,14 +8795,15 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lit-access-control-conditions-modal@^1.1.17:
-  version "1.1.17"
-  resolved "https://registry.yarnpkg.com/lit-access-control-conditions-modal/-/lit-access-control-conditions-modal-1.1.17.tgz#56465eb966ada0ca54814cdbb050ec40fcd64697"
-  integrity sha512-iLsvVZBA9EtAU00QSyxjWrpKoxUTn46f4Ytd7LY0CMp8lSBPx31fu+HLtx64rKkRpTrcZvLicac7A2I7VESMvA==
+lit-access-control-conditions-modal@^1.1.19:
+  version "1.1.19"
+  resolved "https://registry.yarnpkg.com/lit-access-control-conditions-modal/-/lit-access-control-conditions-modal-1.1.19.tgz#9f36e2fd7cc0bda5f8184e08cf6e45a51d71680a"
+  integrity sha512-7nwA5mW8qwSqkmbyCwTEIVFd4p/pG3qUFEk6+3w/P+8LTOvVchmhJKJHX4oQ5qRV7N52BnotqAMWKA6aPol0aw==
   dependencies:
     "@babel/polyfill" "^7.12.1"
     "@consta/uikit" "^3.0.0"
     classnames "^2.3.1"
+    core-js "^3.19.1"
     ethers "^5.4.7"
     node-sass "^6.0.1"
     react-select "^4.3.1"
