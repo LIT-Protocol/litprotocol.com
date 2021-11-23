@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Button, Columns, PartBlock, Title } from 'components'
 import { ShareModal } from 'lit-access-control-conditions-modal'
 import LitJsSdk from 'lit-js-sdk'
@@ -83,7 +83,7 @@ const DesignedForDevelopers = () => {
             </div>
             <Button
               className={styles.readTheDocsButton}
-              type="secondary"
+              type="tertiary"
               onClick={handleReadTheDocs}
             >
               Read the Docs
@@ -91,8 +91,12 @@ const DesignedForDevelopers = () => {
           </div>
 
           <div className={styles.rightSide}>
-            <p>Create an access control requirement</p>
-            <textarea className={styles.codeBlock} value={codeblockContent} />
+            <div className={styles.codeBlockContainer}>
+              <p className={styles.codeBlockText}>
+                Create an access control requirement
+              </p>
+              <textarea className={styles.codeBlock} value={codeblockContent} />
+            </div>
             <Button
               className={styles.createRequirementButton}
               type="primary"

@@ -31,7 +31,7 @@ const LeftHeroBlock = () => {
 
       <Button
         className={styles.startButton}
-        type="secondary"
+        type="tertiary"
         onClick={handleStart}
       >
         Start Now
