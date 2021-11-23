@@ -38,7 +38,7 @@ const NowLive = () => {
             btns={
               <Button
                 href="https://litgateway.com/apps/google-drive"
-                type={'primaryDark'}
+                type={'primary'}
               >
                 Details
               </Button>
