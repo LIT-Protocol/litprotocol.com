@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Button, Columns, PartBlock, Title } from 'components'
 import { ShareModal } from 'lit-access-control-conditions-modal'
 import LitJsSdk from 'lit-js-sdk'
@@ -93,7 +93,7 @@ const DesignedForDevelopers = () => {
             </div>
             <Button
               className={styles.readTheDocsButton}
-              type="secondary"
+              type="tertiary"
               onClick={handleReadTheDocs}
             >
               Read the Docs
