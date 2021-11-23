@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^12.1.10",
     "classnames": "^2.3.1",
     "jsonp": "^0.2.1",
-    "lit-access-control-conditions-modal": "^1.1.17",
+    "lit-access-control-conditions-modal": "^1.1.18",
     "lit-js-sdk": "^1.1.81",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
