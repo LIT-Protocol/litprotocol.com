@@ -19,8 +19,8 @@ const MainPage = () => {
     <div className={styles.wrapper}>
       <FloatingLogosHero />
       <Hero />
+      <Trustless />
       <Suspense fallback={<div class={'loading'}>Loading...</div>}>
-        <Trustless />
         <DesignedForDevelopers />
         <Prebuild />
         <Why />
