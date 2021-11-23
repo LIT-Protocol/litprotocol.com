@@ -3,8 +3,8 @@ import React, { Suspense } from 'react'
 
 import Hero from './Hero'
 import FloatingLogosHero from './FloatingLogosHero/FloatingLogosHero'
+import Trustless from './Trustless'
 
-const Trustless = React.lazy(() => import('./Trustless'))
 const DesignedForDevelopers = React.lazy(() =>
   import('./DesignedForDevelopers'),
 )
