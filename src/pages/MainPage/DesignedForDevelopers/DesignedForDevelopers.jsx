@@ -101,8 +101,12 @@ const DesignedForDevelopers = () => {
           </div>
 
           <div className={styles.rightSide}>
-            <p>Provision access to an encryption key via on-chain conditions</p>
-            <textarea className={styles.codeBlock} value={codeblockContent} />
+            <div className={styles.codeBlockContainer}>
+              <p className={styles.codeBlockText}>
+                Provision access to an encryption key via on-chain conditions
+              </p>
+              <textarea className={styles.codeBlock} value={codeblockContent} />
+            </div>
             <Button
               className={styles.createRequirementButton}
               type="primary"
