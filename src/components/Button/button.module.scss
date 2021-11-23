@@ -21,6 +21,17 @@
     }
   }
 
+  &.primaryDark {
+    border: 1px solid $brandDark;
+    background-color: #fff;
+    color: $brandDark;
+
+    &:hover {
+      //background-color: $brandLight;
+      background-color: $brandExtraLight;
+    }
+  }
+
   &.secondary {
     border: 1px solid $brand4;
     background-color: transparent;
@@ -33,17 +44,11 @@
   }
 
   &.tertiary {
-    //border: 1px solid $brandLight;
-    //color: $brandLight;
     border: 1px solid #e7ddff;
     color: #e7ddff;
     background-color: transparent;
 
     &:hover {
-      //color: #EEE7FF;
-      //border-color: #EEE7FF;
-      //color: $brandLight;
-      //border-color: $brandLight;
       color: #fff;
       border-color: #fff;
     }

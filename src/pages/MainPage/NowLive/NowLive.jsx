@@ -20,7 +20,11 @@ const NowLive = () => {
           <p>
             <strong>Find your apps, collect your offers</strong>
           </p>
-          <Button className={styles.enterButton} href="https://litgateway.com/">
+          <Button
+            className={styles.enterButton}
+            type={'primaryDark'}
+            href="https://litgateway.com/"
+          >
             Enter the Gateway
           </Button>
         </div>
@@ -32,7 +36,10 @@ const NowLive = () => {
             titleIcon={gDriveLogo}
             tags={['Productivity']}
             btns={
-              <Button href="https://litgateway.com/apps/google-drive">
+              <Button
+                href="https://litgateway.com/apps/google-drive"
+                type={'primaryDark'}
+              >
                 Details
               </Button>
             }
