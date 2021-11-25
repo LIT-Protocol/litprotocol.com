@@ -5,15 +5,6 @@ import LitJsSdk from 'lit-js-sdk'
 
 import styles from './designed-for-developers.module.scss'
 
-const STATIC_CODE = `
-  const encryptedSymmetricKey = await litNodeClient.saveEncryptionKey({
-    accessControlConditions,
-    symmetricKey,
-    authSig,
-    chain: 'ethereum',
-  });
-`
-
 const formatCodeForCodeblock = async (accessControlConditions) => {
   const humanized = await LitJsSdk.humanizeAccessControlConditions({
     accessControlConditions,
@@ -29,7 +20,6 @@ const formatCodeForCodeblock = async (accessControlConditions) => {
   return `
   // Decryption Condition: ${humanized}
   const accessControlConditions = ${formattedAccessControlConditions}
-  ${STATIC_CODE}
   `
 }
 
@@ -103,7 +93,7 @@ const DesignedForDevelopers = () => {
           <div className={styles.rightSide}>
             <div className={styles.codeBlockContainer}>
               <p className={styles.codeBlockText}>
-                Provision access to an encryption key via on-chain conditions
+                Create an access control requirement
               </p>
               <textarea className={styles.codeBlock} value={codeblockContent} />
             </div>
