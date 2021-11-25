@@ -8812,10 +8812,10 @@ lit-access-control-conditions-modal@^1.1.21:
     react-windowed-select "^3.1.2"
     sass "^1.42.0"
 
-lit-js-sdk@^1.1.81:
-  version "1.1.81"
-  resolved "https://registry.yarnpkg.com/lit-js-sdk/-/lit-js-sdk-1.1.81.tgz#afa5cd0edfe7356064d3ef30515c7937f1b51f4c"
-  integrity sha512-qZB/FlIefdXzgx+UNlYWSnXxzGkAJoocSwmHvBzpHkiE+sH8oNTEgKPmPnd2Yact8EWdS0YOd0KGPOurx6Z5tg==
+lit-js-sdk@^1.1.83:
+  version "1.1.83"
+  resolved "https://registry.yarnpkg.com/lit-js-sdk/-/lit-js-sdk-1.1.83.tgz#c35951c10e3c4977f5953603a7551e82208f80d4"
+  integrity sha512-OyhVr7FKnE9R/0jgDTx+/+ZJZv7v4fWl6h4SRRiPbUUxqcJcLUBsrVROyhLctwbjykhzNhBe+oFbFEFAXfc9Bg==
   dependencies:
     "@ethersproject/contracts" "^5.2.0"
     "@ethersproject/hash" "^5.4.0"
