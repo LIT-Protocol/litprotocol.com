@@ -50,7 +50,11 @@ const DesignedForDevelopers = () => {
     go()
   }, [])
 
-  const handleReadTheDocs = () => {}
+  const handleReadTheDocs = () => {
+    window
+      .open('https://developer.litprotocol.com/docs/intro/', '_blank')
+      .focus()
+  }
 
   const handleCreateRequirement = () => {
     setShowingShareModal(true)
