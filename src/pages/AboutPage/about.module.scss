@@ -75,6 +75,30 @@
 }
 
 @media (max-width: 600px) {
+  .wrapper {
+    padding-top: 1rem;
+
+    .inner {
+      max-width: 80%;
+      padding: 0;
+
+      .slogan {
+        h2 {
+          font-size: 26px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        strongFont {
+          font-size: 16px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
   .footerWrapper {
     flex-wrap: wrap;
     padding: 1rem;
