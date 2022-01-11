@@ -9,6 +9,10 @@ const Top = () => {
           <h1>Lit Protocol</h1>
         </span>
         <span className={styles.links}>
+          <a className={styles.linkBlog} href={`${window.location.href}about`}>
+            {/*<a className={styles.linkBlog} href={''}>*/}
+            About
+          </a>
           <a className={styles.linkBlog} href="https://blog.litprotocol.com/">
             Blog
           </a>
