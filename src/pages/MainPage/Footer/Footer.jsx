@@ -33,7 +33,7 @@ const Footer = () => {
         className={styles.linkDeveloper}
         href="https://developer.litprotocol.com/docs/intro"
       >
-        Developer Docs
+        Docs
       </a>
 
       <a

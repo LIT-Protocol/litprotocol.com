@@ -6,7 +6,9 @@ const Top = () => {
       <div className={styles.gatewayLink}>
         <span className={styles.logo}>
           <img src="/lit-logo.png" />
-          <h1>Lit Protocol</h1>
+          <a href={'https://www.litprotocol.com'}>
+            <h1>Lit Protocol</h1>
+          </a>
         </span>
         <span className={styles.links}>
           <a className={styles.linkBlog} href={`${window.location.href}about`}>
