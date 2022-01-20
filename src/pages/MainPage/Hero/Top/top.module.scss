@@ -42,6 +42,11 @@
       justify-content: space-between;
     }
 
+    .hamburgerMenuContainer {
+      display: none;
+      position: relative;
+    }
+
     a {
       @extend .size-xl;
       color: #fff;
@@ -66,6 +71,16 @@
     .gatewayLink {
       .links {
         display: none;
+      }
+
+      .hamburgerMenuContainer {
+        display: inline-block;
+
+        .hamburgerMenu {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+        }
       }
     }
   }
