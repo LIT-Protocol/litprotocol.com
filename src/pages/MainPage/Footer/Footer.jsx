@@ -21,6 +21,10 @@ const Footer = () => {
         <Icons.Discord />
       </a>
 
+      <a className={styles.linkBlog} href={`${window.location.href}about`}>
+        About
+      </a>
+
       <a className={styles.linkBlog} href="https://blog.litprotocol.com/">
         Blog
       </a>
