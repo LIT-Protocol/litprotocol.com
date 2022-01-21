@@ -58,6 +58,7 @@
         padding-bottom: 2rem;
         height: 100vh;
         z-index: 100;
+        overflow: hidden;
 
         .menuLink {
           width: 100vw;
@@ -79,6 +80,11 @@
       color: #fff;
     }
   }
+}
+
+.positionFixed {
+  position: fixed;
+  background-color: $brandDark;
 }
 
 @media (max-width: 1000px) {

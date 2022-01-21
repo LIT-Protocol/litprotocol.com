@@ -2,11 +2,18 @@ import styles from './top.module.scss'
 import { useState } from 'react'
 import exitIcon from '../assets/exitIcon.svg'
 import hamburgerIcon from '../assets/hamburgerIcon.svg'
+import cx from 'classnames'
 
 const Top = () => {
   const [hamburgerMenuOpen, setHamburgerMenuOpen] = useState(false)
   return (
-    <div className={styles.wrapper}>
+    <div
+      className={
+        hamburgerMenuOpen
+          ? cx(styles.wrapper, styles.positionFixed)
+          : styles.wrapper
+      }
+    >
       <div className={styles.gatewayLink}>
         <span className={styles.logo}>
           <img src="/lit-logo.png" />
@@ -49,7 +56,7 @@ const Top = () => {
               <li className={styles.menuLink}>
                 <a
                   className={styles.linkBlog}
-                  href={`${window.location.href}about`}
+                  href={`https://.dev.litprotocol.com/about`}
                 >
                   About
                 </a>
