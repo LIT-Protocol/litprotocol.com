@@ -3,6 +3,7 @@ import { useState } from 'react'
 import exitIcon from '../assets/exitIcon.svg'
 import hamburgerIcon from '../assets/hamburgerIcon.svg'
 import cx from 'classnames'
+import { Link } from 'react-router-dom'
 
 const Top = () => {
   const [hamburgerMenuOpen, setHamburgerMenuOpen] = useState(false)
@@ -22,12 +23,14 @@ const Top = () => {
           </a>
         </span>
         <span className={styles.links}>
-          <a
-            className={styles.linkBlog}
-            href={`https://dev.litprotocol.com/about`}
-          >
+          {/*<a*/}
+          {/*  className={styles.linkBlog}*/}
+          {/*  href={`https://dev.litprotocol.com/about`}*/}
+          {/*>*/}
+          <Link className={styles.linkBlog} to={'/about'}>
             About
-          </a>
+          </Link>
+          {/*</a>*/}
           <a className={styles.linkBlog} href="https://blog.litprotocol.com/">
             Blog
           </a>
