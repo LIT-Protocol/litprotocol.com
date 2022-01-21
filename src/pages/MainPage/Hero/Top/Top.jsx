@@ -22,7 +22,10 @@ const Top = () => {
           </a>
         </span>
         <span className={styles.links}>
-          <a className={styles.linkBlog} href={`${window.location.href}about`}>
+          <a
+            className={styles.linkBlog}
+            href={`https://dev.litprotocol.com/about`}
+          >
             About
           </a>
           <a className={styles.linkBlog} href="https://blog.litprotocol.com/">
