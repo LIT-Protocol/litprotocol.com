@@ -20,8 +20,7 @@ const Why = () => {
             <Title secondary value="Decentralized" />
             <p>
               There is no central authority that has access to what you gate
-              with Lit Protocol. The network used the BLS threshold encryption
-              scheme.
+              with Lit Protocol. The network uses BLS threshold encryption.
             </p>
           </span>
         </div>
