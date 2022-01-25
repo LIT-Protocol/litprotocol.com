@@ -23,10 +23,6 @@ const Top = () => {
           </a>
         </span>
         <span className={styles.links}>
-          {/*<a*/}
-          {/*  className={styles.linkBlog}*/}
-          {/*  href={`https://dev.litprotocol.com/about`}*/}
-          {/*>*/}
           <Link className={styles.linkBlog} to={'/about'}>
             About
           </Link>
@@ -60,12 +56,9 @@ const Top = () => {
           {!!hamburgerMenuOpen && (
             <ul className={styles.hamburgerMenu}>
               <li className={styles.menuLink}>
-                <a
-                  className={styles.linkBlog}
-                  href={`https://.dev.litprotocol.com/about`}
-                >
+                <Link className={styles.linkBlog} to={'/about'}>
                   About
-                </a>
+                </Link>
               </li>
               <li className={styles.menuLink}>
                 <a
