@@ -1,5 +1,5 @@
 export const postUser = (body) => {
-  return fetch('https://backend-dev.litgateway.com/saveSubscribe', {
+  return fetch('https://backend-dev.litgateway.com/users/saveSubscribe', {
     method: 'POST',
     mode: 'cors',
     headers: {
