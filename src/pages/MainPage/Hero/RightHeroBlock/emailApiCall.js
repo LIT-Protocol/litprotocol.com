@@ -1,7 +1,7 @@
 const SibApiV3Sdk = require('sib-api-v3-typescript')
 require('dotenv').config()
 
-const emailApi = process.env.SEND_IN_BLUE_API
+const emailApi = process.env.REACT_APP_SEND_IN_BLUE_API
 
 export const postUser = (body) => {
   console.log('CHECK PROCESS', process.env)
