@@ -4,6 +4,7 @@ require('dotenv').config()
 const emailApi = process.env.SEND_IN_BLUE_API
 
 export const postUser = (body) => {
+  console.log('CHECK PROCESS', process.env)
   let apiInstance = new SibApiV3Sdk.ContactsApi()
 
   let apiKey = apiInstance.authentications['apiKey']
