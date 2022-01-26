@@ -1,10 +1,13 @@
 export const postUser = (body) => {
-  return fetch('https://backend-dev.litgateway.com/users/saveSubscribe', {
-    method: 'POST',
-    mode: 'cors',
-    headers: {
-      'Content-Type': 'application/json',
+  return fetch(
+    'https://backend-dev.litgateway.com/users/subscribeToMailingList',
+    {
+      method: 'POST',
+      mode: 'cors',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(body),
     },
-    body: JSON.stringify(body),
-  }).then((response) => response.json())
+  ).then((response) => response.json())
 }
