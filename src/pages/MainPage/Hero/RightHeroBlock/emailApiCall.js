@@ -1,4 +1,5 @@
 const SibApiV3Sdk = require('sib-api-v3-typescript')
+require('dotenv').config()
 
 const emailApi = process.env.SEND_IN_BLUE_API
 
