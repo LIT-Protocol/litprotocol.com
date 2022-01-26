@@ -10,7 +10,7 @@ export const postUser = (body) => {
       body: JSON.stringify(body),
     },
   ).then((response) => {
-    console.log('CHeck response', response)
+    console.log('CHeck response', response.json())
     return response.json()
   })
 }
