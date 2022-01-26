@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import MailchimpSubscribe from './MailchimpSubscribe'
+import EmailSubscribe from './EmailSubscribe'
 import CustomForm from './CustomForm'
 
 const RightHeroBlock = () => {
@@ -10,7 +10,7 @@ const RightHeroBlock = () => {
 
   return (
     <div>
-      <MailchimpSubscribe
+      <EmailSubscribe
         url={addUrl}
         render={({ subscribe, status, message }) => {
           return (
