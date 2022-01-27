@@ -16,6 +16,7 @@
   .zoomLogo,
   .ifpsLogo,
   .googleLogo,
+  .cloudflareLogo,
   .gatherLogo {
     display: none;
   }
@@ -60,15 +61,25 @@
 
   .logoContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 80%;
     margin: 8rem auto 0;
     padding: calc(8vw) 10%;
-    align-items: center;
+    //align-items: center;
     position: absolute;
     bottom: 0;
     background-color: #eeeeee;
+
+    .ifpsLogo {
+      display: inline;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 3.5rem;
+      width: 16%;
+      //width: 17%;
+      //background-image: url('../Hero/assets/ipfsLogo.svg');
+    }
 
     .zoomLogo {
       display: inline;
@@ -80,21 +91,11 @@
       //background-image: url('../Hero/assets/zoomLogo.svg');
     }
 
-    .ifpsLogo {
-      display: inline;
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 4rem;
-      width: 16%;
-      //width: 17%;
-      //background-image: url('../Hero/assets/ipfsLogo.svg');
-    }
-
     .googleLogo {
       display: inline;
       background-size: contain;
       background-repeat: no-repeat;
-      height: 3.5rem;
+      height: 3rem;
       margin-top: 0.3rem;
       width: 16%;
       //width: 16%;
@@ -148,31 +149,31 @@
       padding: calc(3vw) 10%;
       flex-wrap: wrap;
 
-      .zoomLogo {
-        height: 1.3rem;
+      .ifpsLogo {
+        height: 2.3rem;
         width: 33%;
       }
 
-      .ifpsLogo {
-        height: 3rem;
+      .zoomLogo {
+        height: 1rem;
         width: 33%;
       }
 
       .googleLogo {
         margin-top: 0.25rem;
-        height: 2.5rem;
-        width: 33%;
-      }
-
-      .gatherLogo {
-        margin-top: 0.5rem;
         height: 2rem;
         width: 33%;
       }
 
+      .gatherLogo {
+        margin-top: 0.35rem;
+        height: 1.8rem;
+        width: 33%;
+      }
+
       .cloudflareLogo {
-        margin-top: 0.5rem;
-        height: 5rem;
+        margin-top: 0.35rem;
+        height: 3rem;
         width: 33%;
       }
     }

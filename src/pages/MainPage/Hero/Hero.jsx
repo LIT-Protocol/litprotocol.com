@@ -24,9 +24,9 @@ const Hero = () => {
         </div>
       </div>
       <span className={styles.logoContainer}>
+        <img src={googleLogo} className={styles.googleLogo} />
         <img src={zoomLogo} className={styles.zoomLogo} />
         <img src={ifpsLogo} className={styles.ifpsLogo} />
-        <img src={googleLogo} className={styles.googleLogo} />
         <img src={cloudflareLogo} className={styles.cloudflareLogo} />
         <img src={gatherLogo} className={styles.gatherLogo} />
       </span>
