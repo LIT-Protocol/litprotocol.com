@@ -61,7 +61,6 @@ const DesignedForDevelopers = () => {
   }
 
   const onAccessControlConditionsSelected = async (accessControlConditions) => {
-    console.log('onAccessControlConditionsSelected', accessControlConditions)
     setShowingShareModal(false)
     const formatted = await formatCodeForCodeblock(accessControlConditions)
     setCodeblockContent(formatted)
