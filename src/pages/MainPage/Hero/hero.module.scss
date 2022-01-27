@@ -60,7 +60,8 @@
 
   .logoContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     width: 80%;
     margin: 8rem auto 0;
     padding: calc(8vw) 10%;
@@ -75,7 +76,8 @@
       background-repeat: no-repeat;
       height: 1.5rem;
       width: 20%;
-      background-image: url('../Hero/assets/zoomLogo.svg');
+      //width: 20%;
+      //background-image: url('../Hero/assets/zoomLogo.svg');
     }
 
     .ifpsLogo {
@@ -83,28 +85,44 @@
       background-size: contain;
       background-repeat: no-repeat;
       height: 4rem;
-      width: 17%;
-      background-image: url('../Hero/assets/ipfsLogo.svg');
+      width: 16%;
+      //width: 17%;
+      //background-image: url('../Hero/assets/ipfsLogo.svg');
     }
 
     .googleLogo {
       display: inline;
       background-size: contain;
       background-repeat: no-repeat;
-      height: 4rem;
+      height: 3.5rem;
       margin-top: 0.3rem;
       width: 16%;
-      background-image: url('../Hero/assets/googleLogo.svg');
+      //width: 16%;
+      //background-image: url('../Hero/assets/googleLogo.svg');
     }
 
     .gatherLogo {
       display: inline;
       background-size: contain;
       background-repeat: no-repeat;
-      height: 2.5rem;
-      width: 27%;
+      //margin-top: 1.5rem;
+      height: 2.6rem;
+      width: 24%;
+      //width: 20%;
       //background-color: #fff;
-      background-image: url('../Hero/assets/gatherLogo.svg');
+      //background-image: url('../Hero/assets/gatherLogo.svg');
+    }
+
+    .cloudflareLogo {
+      display: inline;
+      background-size: contain;
+      background-repeat: no-repeat;
+      //margin-top: 1rem;
+      height: 5.5rem;
+      width: 24%;
+      //width: 20%;
+      //background-color: #fff;
+      //background-image: url('../Hero/assets/cf-logo-v.svg');
     }
   }
 
@@ -128,6 +146,35 @@
     .logoContainer {
       margin: 0 auto;
       padding: calc(3vw) 10%;
+      flex-wrap: wrap;
+
+      .zoomLogo {
+        height: 1.3rem;
+        width: 33%;
+      }
+
+      .ifpsLogo {
+        height: 3rem;
+        width: 33%;
+      }
+
+      .googleLogo {
+        margin-top: 0.25rem;
+        height: 2.5rem;
+        width: 33%;
+      }
+
+      .gatherLogo {
+        margin-top: 0.5rem;
+        height: 2rem;
+        width: 33%;
+      }
+
+      .cloudflareLogo {
+        margin-top: 0.5rem;
+        height: 5rem;
+        width: 33%;
+      }
     }
   }
 }
