@@ -1,0 +1,133 @@
+@import 'style/colors.scss';
+@import 'style/text.scss';
+
+.wrapper {
+  position: relative;
+  padding: 180px 0 0 0;
+  //padding: 120px 0 173px 0;
+  min-height: 45rem;
+  background-color: #281647;
+  background-image: url('../MainPage/Hero/assets/background.png');
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.inner {
+  max-width: 65rem;
+  margin: 0 auto;
+
+  .slogan {
+    h2 {
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 150%;
+      margin-top: 5rem;
+      color: $white;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 150%;
+      color: $white;
+    }
+
+    .strongFont {
+      font-weight: 400;
+      font-size: 19px;
+    }
+
+    .bottomBorder {
+      padding-bottom: 2rem;
+      border-bottom: 3px solid $brand4;
+    }
+
+    .jobLink {
+      font-weight: 400;
+      color: $brandLight;
+    }
+  }
+}
+
+.footerWrapper {
+  height: 205px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //background-color: rgba(25, 7, 65, 1);
+
+  > * {
+    margin-right: 74px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  a {
+    @extend .size-xl;
+    color: $brandLight;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    padding-top: 1rem;
+
+    .inner {
+      max-width: 80%;
+      padding: 0;
+
+      .slogan {
+        h2 {
+          font-size: 26px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        strongFont {
+          font-size: 16px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .footerWrapper {
+    flex-wrap: wrap;
+    padding: 1rem;
+    height: 8rem;
+    justify-content: space-between;
+
+    > * {
+      margin-right: 0;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    a {
+      text-align: center;
+    }
+
+    .linkTwitter,
+    .linkDiscord {
+      width: 32%;
+      font-size: 1.1rem;
+    }
+
+    .linkBlog,
+    .linkContact,
+    .linkDeveloper {
+      width: 32%;
+      font-size: 1.1rem;
+    }
+  }
+}

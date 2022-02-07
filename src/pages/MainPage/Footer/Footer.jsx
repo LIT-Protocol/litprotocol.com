@@ -25,6 +25,10 @@ const Footer = () => {
         Blog
       </a>
 
+      <a className={styles.linkBlog} href="https://www.litgateway.com/">
+        Gateway
+      </a>
+
       <a
         className={styles.linkDeveloper}
         href="https://developer.litprotocol.com/docs/intro"

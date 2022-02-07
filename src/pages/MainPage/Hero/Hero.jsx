@@ -1,5 +1,10 @@
 import LeftHeroBlock from './LeftHeroBlock'
 import RightHeroBlock from './RightHeroBlock'
+import zoomLogo from './assets/zoomLogo.svg'
+import ifpsLogo from './assets/ipfsLogo.svg'
+import googleLogo from './assets/googleLogo.svg'
+import gatherLogo from './assets/gatherLogo.svg'
+import cloudflareLogo from './assets/cf-logo-v.svg'
 
 import { PartBlock } from 'components'
 
@@ -19,10 +24,11 @@ const Hero = () => {
         </div>
       </div>
       <span className={styles.logoContainer}>
-        <div className={styles.zoomLogo} />
-        <div className={styles.ifpsLogo} />
-        <div className={styles.googleLogo} />
-        <div className={styles.gatherLogo} />
+        <img src={googleLogo} className={styles.googleLogo} />
+        <img src={zoomLogo} className={styles.zoomLogo} />
+        <img src={ifpsLogo} className={styles.ifpsLogo} />
+        <img src={cloudflareLogo} className={styles.cloudflareLogo} />
+        <img src={gatherLogo} className={styles.gatherLogo} />
       </span>
     </PartBlock>
   )

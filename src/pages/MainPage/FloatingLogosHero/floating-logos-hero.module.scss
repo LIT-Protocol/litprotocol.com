@@ -11,7 +11,7 @@
 .zoomLogo {
   cursor: pointer;
   position: absolute;
-  top: 54rem;
+  top: 53rem;
   right: 34%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -23,8 +23,8 @@
 .ifpsLogo {
   cursor: pointer;
   position: absolute;
-  top: 49.5rem;
-  right: 23%;
+  top: 49rem;
+  right: 24%;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url('../Hero/assets/ipfsLogo.svg');
@@ -36,7 +36,7 @@
   cursor: pointer;
   position: absolute;
   top: 47rem;
-  right: 12%;
+  right: 14%;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url('../Hero/assets/googleLogo.svg');
@@ -47,13 +47,25 @@
 .gatherLogo {
   cursor: pointer;
   position: absolute;
-  top: 55rem;
-  right: 13%;
+  top: 56rem;
+  right: 18%;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url('../Hero/assets/gatherLogo.svg');
   height: 2.5rem;
   width: 6.5rem;
+}
+
+.cloudflareLogo {
+  cursor: pointer;
+  position: absolute;
+  top: 52.5rem;
+  right: 7%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../Hero/assets/cf-logo-v.svg');
+  height: 4.5rem;
+  width: 8rem;
 }
 
 @media (max-width: 1000px) {
@@ -79,6 +91,10 @@
   }
 
   .gatherLogo {
+    display: none;
+  }
+
+  .cloudflareLogo {
     display: none;
   }
 }
