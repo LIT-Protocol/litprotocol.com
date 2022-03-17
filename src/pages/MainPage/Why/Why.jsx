@@ -31,7 +31,7 @@ const Why = () => {
             <Title secondary value="Secure Execution" />
             <p>
               The nodes of the Lit Protocol perform all their operations inside
-              of a Trusted Execution Environment, so node operators can’t snoop.
+              of a Trusted Execution Environment, so node operators can't snoop.
             </p>
           </span>
         </div>
