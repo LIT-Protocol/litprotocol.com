@@ -57,7 +57,7 @@ const AboutPage = () => {
             usefulness and conveniences of today’s closed platforms.
           </p>
           <p>
-            We are hiring engineers at Lit Protocol.{' '}
+            We are hiring at Lit Protocol.{' '}
             <a
               href={'https://angel.co/company/lit-protocol/jobs'}
               className={styles.jobLink}
