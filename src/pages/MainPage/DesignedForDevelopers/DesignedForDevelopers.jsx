@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { Button, Columns, PartBlock, Title } from 'components'
-import { ShareModal } from 'lit-access-control-conditions-modal'
+// import { ShareModal } from 'lit-access-control-conditions-modal'
+import { ShareModal } from 'lit-share-modal'
+import 'lit-share-modal/dist/style.css'
 import LitJsSdk from 'lit-js-sdk'
 
 import styles from './designed-for-developers.module.scss'
@@ -60,9 +62,11 @@ const DesignedForDevelopers = () => {
     setShowingShareModal(true)
   }
 
-  const onAccessControlConditionsSelected = async (accessControlConditions) => {
+  const onAccessControlConditionsSelected = async (shareModalData) => {
     setShowingShareModal(false)
-    const formatted = await formatCodeForCodeblock(accessControlConditions)
+    const formatted = await formatCodeForCodeblock(
+      shareModalData.accessControlConditions,
+    )
     setCodeblockContent(formatted)
   }
 
@@ -110,16 +114,21 @@ const DesignedForDevelopers = () => {
           </div>
         </Columns>
       </PartBlock>
-      {showingShareModal ? (
-        <ShareModal
-          onClose={() => setShowingShareModal(false)}
-          sharingItems={[]}
-          onAccessControlConditionsSelected={onAccessControlConditionsSelected}
-          getSharingLink={() => 'test'}
-          showStep={'ableToAccess'}
-          tokenList={tokenList}
-        />
-      ) : null}
+      {/*{showingShareModal ? (*/}
+      {/*  <ShareModal*/}
+      {/*    onClose={() => setShowingShareModal(false)}*/}
+      {/*    sharingItems={[]}*/}
+      {/*    onAccessControlConditionsSelected={onAccessControlConditionsSelected}*/}
+      {/*    getSharingLink={() => 'test'}*/}
+      {/*    showStep={'ableToAccess'}*/}
+      {/*    tokenList={tokenList}*/}
+      {/*  />*/}
+      {/*) : null}*/}
+      <ShareModal
+        onClose={() => setShowingShareModal(false)}
+        showModal={showingShareModal}
+        onAccessControlConditionsSelected={onAccessControlConditionsSelected}
+      />
     </>
   )
 }
