@@ -124,11 +124,13 @@ const DesignedForDevelopers = () => {
       {/*    tokenList={tokenList}*/}
       {/*  />*/}
       {/*) : null}*/}
-      <ShareModal
-        onClose={() => setShowingShareModal(false)}
-        showModal={showingShareModal}
-        onAccessControlConditionsSelected={onAccessControlConditionsSelected}
-      />
+      <div style={{ zIndex: 3 }}>
+        <ShareModal
+          onClose={() => setShowingShareModal(false)}
+          showModal={showingShareModal}
+          onAccessControlConditionsSelected={onAccessControlConditionsSelected}
+        />
+      </div>
     </>
   )
 }
