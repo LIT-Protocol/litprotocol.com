@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Button, Columns, PartBlock, Title } from 'components'
-// import { ShareModal } from 'lit-access-control-conditions-modal'
-import { ShareModal } from 'lit-share-modal'
+import ShareModal from 'lit-share-modal'
 import 'lit-share-modal/dist/style.css'
 import LitJsSdk from 'lit-js-sdk'
 
@@ -114,16 +113,6 @@ const DesignedForDevelopers = () => {
           </div>
         </Columns>
       </PartBlock>
-      {/*{showingShareModal ? (*/}
-      {/*  <ShareModal*/}
-      {/*    onClose={() => setShowingShareModal(false)}*/}
-      {/*    sharingItems={[]}*/}
-      {/*    onAccessControlConditionsSelected={onAccessControlConditionsSelected}*/}
-      {/*    getSharingLink={() => 'test'}*/}
-      {/*    showStep={'ableToAccess'}*/}
-      {/*    tokenList={tokenList}*/}
-      {/*  />*/}
-      {/*) : null}*/}
       <div style={{ zIndex: 3 }}>
         <ShareModal
           onClose={() => setShowingShareModal(false)}
