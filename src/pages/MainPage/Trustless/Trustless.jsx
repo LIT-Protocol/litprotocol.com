@@ -11,21 +11,21 @@ const Trustless = () => {
         <Columns>
           <div>
             <p>
-              Lit Protocol is a decentralized network of computers that grant
-              users keys to resources like software and content, when they meet
-              certain conditions, like owning a given NFT.
+              Lit Protocol provides decentralized identity-based encryption and
+              access control.
             </p>
             <p>
-              Lit brings together everything that’s required for websites, apps,
-              games, events, and IOT devices to to create blockchain connected
-              experiences.
+              Add Lit Protocol to your application and turn on-chain data (like
+              owning a given NFT) into a 'key' for users to access experiences
+              and decrypt private data stored on the decentralized web
             </p>
           </div>
 
           <div>
             <p>
-              Lit powers token gated files, zoom meetings, serverless
-              decentralized social networks, and anything you can imagine.
+              Create token gated files, zoom meetings, private verifiable
+              credentials, serverless decentralized social networks, and
+              anything you can imagine.
             </p>
           </div>
         </Columns>

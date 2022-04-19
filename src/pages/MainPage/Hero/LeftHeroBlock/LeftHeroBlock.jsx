@@ -11,15 +11,11 @@ const LeftHeroBlock = () => {
 
   return (
     <div className={styles.wrapper}>
-      {/*<div className={styles.logo}>*/}
-      {/*  <img src="/lit-logo.png" />*/}
-      {/*  <h1>Lit Protocol</h1>*/}
-      {/*</div>*/}
       <div className={styles.slogan}>
         <h2>
-          Decentralized Access Control for Connected Experiences
-          {/*Decentralized Composability Infrastructure for the Next*/}
-          {/*Internet*/}
+          Decentralized Access Control for Web3 Apps and Private Data on the
+          Open Web
+          {/*Decentralized Access Control for Connected Experiences*/}
         </h2>
       </div>
 
