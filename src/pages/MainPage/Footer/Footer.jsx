@@ -9,6 +9,7 @@ const Footer = () => {
         className={styles.linkTwitter}
         href="https://twitter.com/litprotocol"
         target="_blank"
+        rel="noreferrer"
       >
         <Icons.Twitter />
       </a>
@@ -17,6 +18,7 @@ const Footer = () => {
         className={styles.linkDiscord}
         href="https://litgateway.com/discord"
         target="_blank"
+        rel="noreferrer"
       >
         <Icons.Discord />
       </a>
@@ -25,9 +27,9 @@ const Footer = () => {
         Blog
       </a>
 
-      <a className={styles.linkBlog} href="https://www.litgateway.com/">
-        Gateway
-      </a>
+      {/*<a className={styles.linkBlog} href='https://www.litgateway.com/'>*/}
+      {/*  Gateway*/}
+      {/*</a>*/}
 
       <a
         className={styles.linkDeveloper}
@@ -36,6 +38,12 @@ const Footer = () => {
         Docs
       </a>
 
+      <a
+        className={styles.linkContact}
+        href="https://angel.co/company/lit-protocol/jobs"
+      >
+        Careers
+      </a>
       <a
         className={styles.linkContact}
         href="https://airtable.com/shr2NWJbH1Y6Y3kOU"

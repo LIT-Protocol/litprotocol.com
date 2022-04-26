@@ -23,20 +23,34 @@ const Top = () => {
           </a>
         </span>
         <span className={styles.links}>
-          <Link className={styles.linkBlog} to={'/about'}>
-            About
-          </Link>
+          {/*<Link className={styles.linkBlog} to={'/about'}>*/}
+          {/*  About*/}
+          {/*</Link>*/}
           {/*</a>*/}
-          <a className={styles.linkBlog} href="https://blog.litprotocol.com/">
-            Blog
+          <a
+            className={styles.linkBlog}
+            href="https://litprotocol.notion.site/Lit-Protocol-Use-Cases-a94916becdc0411f848c3095722c7864"
+          >
+            Use Cases
           </a>
-          <a href="https://litgateway.com">Gateway</a>
-
+          <a href="https://litprotocol.notion.site/a0e7c98c63b042648082fe33c7f66f8c?v=f0955f766af24d6f83dca1c0303fb9a8">
+            Apps
+          </a>
           <a
             className={styles.linkDeveloper}
             href="https://developer.litprotocol.com/docs/intro"
           >
             Docs
+          </a>
+          <a className={styles.linkBlog} href="https://blog.litprotocol.com/">
+            Blog
+          </a>
+          {/*<a href="https://litgateway.com">Gateway</a>*/}
+          <a
+            className={styles.linkContact}
+            href="https://angel.co/company/lit-protocol/jobs"
+          >
+            Careers
           </a>
 
           <a
@@ -56,9 +70,29 @@ const Top = () => {
           {!!hamburgerMenuOpen && (
             <ul className={styles.hamburgerMenu}>
               <li className={styles.menuLink}>
-                <Link className={styles.linkBlog} to={'/about'}>
-                  About
-                </Link>
+                {/*<Link className={styles.linkBlog} to={'/about'}>*/}
+                {/*  About*/}
+                {/*</Link>*/}
+                <a
+                  className={styles.linkBlog}
+                  href="https://litprotocol.notion.site/Lit-Protocol-Use-Cases-a94916becdc0411f848c3095722c7864"
+                >
+                  Use Cases
+                </a>
+              </li>
+              <li className={styles.menuLink}>
+                {/*<a href='https://litgateway.com'>Gateway</a>*/}
+                <a href="https://litprotocol.notion.site/a0e7c98c63b042648082fe33c7f66f8c?v=f0955f766af24d6f83dca1c0303fb9a8">
+                  Apps
+                </a>
+              </li>
+              <li className={styles.menuLink}>
+                <a
+                  className={styles.linkDeveloper}
+                  href="https://developer.litprotocol.com/docs/intro"
+                >
+                  Docs
+                </a>
               </li>
               <li className={styles.menuLink}>
                 <a
@@ -69,15 +103,11 @@ const Top = () => {
                 </a>
               </li>
               <li className={styles.menuLink}>
-                <a href="https://litgateway.com">Gateway</a>
-              </li>
-
-              <li className={styles.menuLink}>
                 <a
-                  className={styles.linkDeveloper}
-                  href="https://developer.litprotocol.com/docs/intro"
+                  className={styles.linkContact}
+                  href="https://angel.co/company/lit-protocol/jobs"
                 >
-                  Docs
+                  Careers
                 </a>
               </li>
 
