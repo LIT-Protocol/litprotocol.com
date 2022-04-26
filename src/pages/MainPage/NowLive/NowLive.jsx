@@ -10,22 +10,28 @@ const NowLive = () => {
     <PartBlock className={styles.wrapper}>
       <Columns className={styles.inner}>
         <div className={styles.descriptionText}>
-          <Title white value="The Gateway is now live" />
+          <Title white value="Who's using Lit Protocol?" />
 
           <p>
-            Lit Gateway is your portal for connected blockchain experiences.
-            Create token gated documents, play games to earn crypto, and so much
-            more.
+            Web3 social media, DAO productivity, decentralized credentials, NFT
+            e-commerce access, and more.
           </p>
           <p>
-            <strong>Find your apps, collect your offers</strong>
+            <strong>Decentralized Access Control in Action</strong>
           </p>
+          {/*<Button*/}
+          {/*  className={styles.enterButton}*/}
+          {/*  type={'primaryDark'}*/}
+          {/*  href='https://litgateway.com/'*/}
+          {/*>*/}
+          {/*  Enter the Gateway*/}
+          {/*</Button>*/}
           <Button
             className={styles.enterButton}
             type={'primaryDark'}
-            href="https://litgateway.com/"
+            href="https://litprotocol.notion.site/a0e7c98c63b042648082fe33c7f66f8c?v=f0955f766af24d6f83dca1c0303fb9a8"
           >
-            Enter the Gateway
+            Apps Using Lit Protocol
           </Button>
         </div>
 
