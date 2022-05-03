@@ -40,7 +40,7 @@ const Footer = () => {
 
       <a
         className={styles.linkContact}
-        href="https://angel.co/company/lit-protocol/jobs"
+        href="https://jobs.lever.co/litprotocol"
       >
         Careers
       </a>

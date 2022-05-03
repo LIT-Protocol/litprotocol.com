@@ -59,9 +59,10 @@ const AboutPage = () => {
           <p>
             We are hiring at Lit Protocol.{' '}
             <a
-              href={'https://angel.co/company/lit-protocol/jobs'}
+              href={'https://jobs.lever.co/litprotocol'}
               className={styles.jobLink}
               target="_blank"
+              rel="noreferrer"
             >
               Get in touch.
             </a>
@@ -73,6 +74,7 @@ const AboutPage = () => {
           className={styles.linkTwitter}
           href="https://twitter.com/litprotocol"
           target="_blank"
+          rel="noreferrer"
         >
           <Icons.Twitter />
         </a>
@@ -81,6 +83,7 @@ const AboutPage = () => {
           className={styles.linkDiscord}
           href="https://litgateway.com/discord"
           target="_blank"
+          rel="noreferrer"
         >
           <Icons.Discord />
         </a>

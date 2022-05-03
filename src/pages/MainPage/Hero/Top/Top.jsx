@@ -48,7 +48,7 @@ const Top = () => {
           {/*<a href="https://litgateway.com">Gateway</a>*/}
           <a
             className={styles.linkContact}
-            href="https://angel.co/company/lit-protocol/jobs"
+            href="https://jobs.lever.co/litprotocol"
           >
             Careers
           </a>
@@ -105,7 +105,7 @@ const Top = () => {
               <li className={styles.menuLink}>
                 <a
                   className={styles.linkContact}
-                  href="https://angel.co/company/lit-protocol/jobs"
+                  href="https://jobs.lever.co/litprotocol"
                 >
                   Careers
                 </a>
