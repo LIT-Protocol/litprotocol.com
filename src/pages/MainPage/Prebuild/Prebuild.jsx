@@ -6,7 +6,7 @@ const Prebuild = () => {
   const handleExplore = () => {
     window
       .open(
-        'https://developer.litprotocol.com/docs/accessControlModal',
+        'https://developer.litprotocol.com/docs/Guides%20and%20Examples/examples',
         '_blank',
       )
       .focus()
