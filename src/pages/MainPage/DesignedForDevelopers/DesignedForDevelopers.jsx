@@ -101,7 +101,7 @@ const DesignedForDevelopers = () => {
               <p className={styles.codeBlockText}>
                 Create an access control requirement
               </p>
-              <textarea className={styles.codeBlock} value={codeblockContent} />
+              <textarea className={styles.codeBlock} value={codeblockContent} onChange={setCodeblockContent} />
             </div>
             <Button
               className={styles.createRequirementButton}

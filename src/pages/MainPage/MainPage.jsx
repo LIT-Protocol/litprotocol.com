@@ -20,7 +20,7 @@ const MainPage = () => {
       <FloatingLogosHero />
       <Hero />
       <Trustless />
-      <Suspense fallback={<div class={'loading'}>Loading...</div>}>
+      <Suspense fallback={<div className={'loading'}>Loading...</div>}>
         <DesignedForDevelopers />
         <Prebuild />
         <Why />
