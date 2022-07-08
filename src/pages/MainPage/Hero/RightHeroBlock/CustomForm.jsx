@@ -1,4 +1,4 @@
-import styles from './right-hero-block.module.scss'
+import styles from './custom-form.module.scss'
 import { Button } from '../../../../components'
 import cx from 'classnames'
 import { useEffect, useState } from 'react'

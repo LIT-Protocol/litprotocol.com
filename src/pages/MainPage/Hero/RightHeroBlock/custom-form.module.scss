@@ -1,0 +1,157 @@
+@import 'style/colors.scss';
+
+.wrapper {
+  //margin-top: -15px;
+  margin-top: 11rem;
+  margin-left: auto;
+  display: flex;
+
+  .inputContainer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 85px;
+  }
+
+  .emailInput {
+    width: 342px;
+    margin-right: 14px;
+    margin-bottom: 1rem;
+  }
+
+  #custom-substack-embed {
+    width: 600px;
+  }
+
+  @media (max-width: 1180px) {
+    margin-top: 55px;
+  }
+
+  .getUpdatesButton {
+    height: 50px;
+    max-height: 50px;
+    white-space: nowrap;
+  }
+
+  .addedForUpdates {
+    border: 1px solid #ddd;
+    background-color: #22c38e;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 48px;
+    padding: 0 24px;
+    outline: none;
+    border-radius: 4px;
+    cursor: auto;
+    width: 9.4rem;
+    transition: 0.3s;
+    height: 50px;
+  }
+
+  .addedForUpdates:hover {
+    background-color: #22c38e;
+    border: 1px solid #ddd;
+  }
+
+  .input {
+    padding: 10.5px 13px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    outline: none;
+    border-radius: 4px;
+
+    &::-webkit-input-placeholder {
+      font-weight: 300;
+    }
+
+    &:-ms-input-placeholder {
+      font-weight: 300;
+    }
+
+    &::placeholder {
+      font-weight: 300;
+    }
+
+    &.primary {
+      background-color: $black;
+      border: 1px solid #bfa1ff;
+      color: $white;
+
+      &::-webkit-input-placeholder {
+        color: rgba(255, 255, 255, 0.68);
+      }
+
+      &:-ms-input-placeholder {
+        color: rgba(255, 255, 255, 0.68);
+      }
+
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.68);
+      }
+    }
+  }
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .error {
+    animation-name: fadein;
+    animation-duration: 0.25s;
+    color: #eb5757;
+    margin: 0 0 0 1rem;
+    font-family: 'Space Grotesk';
+    height: 21px;
+    padding: 0;
+    width: 100%;
+  }
+
+  .success {
+    animation-name: fadein;
+    animation-duration: 0.25s;
+    color: #22c38e;
+    margin: 0 0 0 1rem;
+    font-family: 'Space Grotesk';
+    height: 21px;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    //width: 100%;
+    margin: 2.5rem auto;
+    display: flex;
+    flex-direction: column;
+
+    .emailInput {
+      width: calc(100% - 34px);
+      margin: 0 0 0.75rem;
+      font-size: 0.9rem;
+      line-height: 2.5rem;
+      padding: 0 1rem;
+    }
+
+    .getUpdatesButton {
+      font-size: 0.9rem;
+      line-height: 2.5rem;
+      //margin-top: 1rem;
+    }
+
+    .success,
+    .error {
+      font-size: 0.8rem;
+      height: 15px;
+      padding: 0;
+    }
+  }
+}
