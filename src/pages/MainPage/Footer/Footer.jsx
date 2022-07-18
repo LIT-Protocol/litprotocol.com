@@ -50,6 +50,9 @@ const Footer = () => {
       <a className={styles.linkBlog} href='https://litgateway.com/litprivacypolicy'>
         Privacy Policy
       </a>
+      <a className={styles.linkBlog} href='https://litgateway.com/LitTermsofService.html'>
+        Terms of Service
+      </a>
     </div>
   )
 }

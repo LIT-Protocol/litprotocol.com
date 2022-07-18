@@ -27,7 +27,7 @@
     flex-wrap: wrap;
     padding: 1rem;
     height: 8rem;
-    justify-content: center;
+    justify-content: space-around;
 
 
     > * {
@@ -51,7 +51,7 @@
     .linkBlog,
     .linkContact,
     .linkDeveloper {
-      width: 32%;
+      min-width: 32%;
       font-size: 1.1rem;
     }
   }
