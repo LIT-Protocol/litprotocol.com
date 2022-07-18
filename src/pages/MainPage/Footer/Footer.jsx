@@ -27,9 +27,6 @@ const Footer = () => {
         Blog
       </a>
 
-      {/*<a className={styles.linkBlog} href='https://www.litgateway.com/'>*/}
-      {/*  Gateway*/}
-      {/*</a>*/}
 
       <a
         className={styles.linkDeveloper}
@@ -49,6 +46,9 @@ const Footer = () => {
         href="https://airtable.com/shr2NWJbH1Y6Y3kOU"
       >
         Contact
+      </a>
+      <a className={styles.linkBlog} href='https://litgateway.com/litprivacypolicy'>
+        Privacy Policy
       </a>
     </div>
   )

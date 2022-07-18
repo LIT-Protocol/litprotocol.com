@@ -1,9 +1,6 @@
 import { useState } from 'react'
 import styles from './right-hero-block.module.scss';
 
-import CustomForm from './CustomForm';
-import EmailSubscribe from './EmailSubscribe';
-
 const RightHeroBlock = () => {
   const [inputMessage, setInputMessage] = useState('')
 
