@@ -12,12 +12,11 @@ const Why = () => {
           value="A secure and decentralized approach to access control."
         />
       </Columns>
-
       <Columns className={styles.args}>
         <div className={styles.detailContainer}>
           <div className={styles.imageBlocks}></div>
           <span>
-            <Title secondary value="Decentralized" />
+            <Title secondary value="Decentralized*" />
             <p>
               There is no central authority that has access to what you gate
               with Lit Protocol. The network uses BLS threshold encryption.
@@ -47,6 +46,10 @@ const Why = () => {
           </span>
         </div>
       </Columns>
+      *But we're running all the nodes right now.{' '}
+      <a href="https://developer.litprotocol.com/docs/Introduction/stateOfNetwork">
+        Read more
+      </a>
     </PartBlock>
   )
 }
